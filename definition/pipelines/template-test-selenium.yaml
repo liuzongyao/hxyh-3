@@ -8,7 +8,7 @@ metadata:
     alauda.io/displayName.en: "Selenium Test"
     alauda.io/description.zh-CN: "克隆代码 -> Selenium 测试"
     alauda.io/description.en: "Clone -> Selenium Test"
-    alauda.io/version: "1.0.0"
+    alauda.io/version: "1.0.1"
     alauda.io/style.icon: selenium
   labels:
     category: Test
@@ -25,7 +25,7 @@ spec:
           type: public/clone
     - name: "Selenium test"
       tasks:
-        - name: seleniumTest
+        - name: seleniumTest1
           kind: PipelineTaskTemplate
   arguments:
     - displayName:
